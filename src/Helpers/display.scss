@@ -1,0 +1,93 @@
+
+//******************** display ********************
+.display {
+	&.inline {
+		display: inline;
+	}
+
+	&.block {
+		display: block;
+	}
+	&.inline.block {
+		display: inline-block;
+	}
+}
+
+.show {
+	display: block;
+}
+
+.hide {
+	display: none !important;
+}
+
+.visible {
+	opacity: 1 !important;
+}
+
+.invisible {
+	opacity: 0 !important;
+}
+
+//******************** float ********************
+
+.floated {
+	&.left {
+		float: left;
+	}
+
+	&.right {
+		float: right;
+	}
+
+	&.not {
+		float: none;
+	}
+}
+
+//******************** cursor ********************
+
+.cursor {
+	&.pointer {
+		cursor: pointer;
+	}
+
+	&.not.allowed {
+		cursor: not-allowed;
+	}
+
+	&.none {
+		cursor: none;
+	}
+
+	&.default {
+		cursor: default;
+	}
+
+	&.text {
+		cursor: text;
+	}
+}
+
+//******************** overflow ********************
+.overflow {
+	&.hidden {
+		overflow: hidden;
+	}
+
+	&.auto {
+		overflow: auto;
+	}
+
+	&.scroll {
+		overflow: scroll;
+	}
+
+	&.visible {
+		overflow: visible;
+	}
+
+	&.inherit {
+		overflow: inherit;
+	}
+}

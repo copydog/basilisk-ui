@@ -1,0 +1,26 @@
+//******************** border style ********************
+.border {
+	&.dashed {
+		border-style: dashed;
+	}
+
+	&.dotted {
+		border-style: dotted;
+	}
+
+	&.solid {
+		border-style: solid;
+	}
+
+	&.hidden {
+		border-style: hidden;
+	}
+}
+
+//******************** border color ********************
+
+
+//******************** box shadow ********************
+.raised {
+	box-shadow: $boxShadow;
+}

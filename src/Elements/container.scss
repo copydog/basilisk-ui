@@ -1,0 +1,34 @@
+//******************** basic container ********************
+.container {
+	display: block;
+	width: $defaultWidth;
+	margin: 0 auto;
+}
+
+/* Mobile */
+@media only screen and (max-width: $tabletBreakpoint) {
+	.container {
+		width: $mobileWidth;
+	}
+}
+
+/* Tablet */
+@media only screen and (min-width: $tabletBreakpoint) and (max-width: $computerBreakpoint) {
+	.container {
+		width: $tabletWidth;
+	}
+}
+
+/* Small Monitor */
+@media only screen and (min-width: $computerBreakpoint) and (max-width: $largeMonitorBreakpoint) {
+	.container {
+		width: $computerWidth;
+	}
+}
+
+/* Large Monitor */
+@media only screen and (min-width: $largeMonitorBreakpoint) {
+	.container {
+		width: $largeMonitorWidth;
+	}
+}
