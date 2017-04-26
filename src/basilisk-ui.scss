@@ -3,14 +3,13 @@
 @import "helpers/reset";
 
 //******************** variables ********************
-@import "globals/master";
-@import "globals/colorizing";
-@import "globals/container";
-@import "globals/customize"; // for user to customize variable
+@import "globals/index";
 
 //******************** elements ********************
 @import "elements/container";
 @import "elements/button";
+@import "elements/header";
+@import "elements/icon";
 
 //******************** collections ********************
 @import "collections/grid";

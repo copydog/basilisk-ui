@@ -91,3 +91,52 @@
 		overflow: inherit;
 	}
 }
+//******************** situational ********************
+.only {
+	display: none;
+}
+
+/* Mobile */
+@media only screen and (max-width: $tabletBreakpoint) {
+	.mobile.only {
+		display: block;
+	}
+
+	.mobile.only.inline {
+		display: inline;
+	}
+
+	.mobile.only.inline.block {
+		display: inline-block;
+	}
+}
+
+/* Tablet */
+@media only screen and (min-width: $tabletBreakpoint) and (max-width: $computerBreakpoint) {
+	.tablet.only {
+		display: block;
+	}
+
+	.tablet.only.inline {
+		display: inline;
+	}
+
+	.tablet.only.inline.block {
+		display: inline-block;
+	}
+}
+
+/* Small Monitor */
+@media only screen and (min-width: $computerBreakpoint) {
+	.computer.only {
+		display: block;
+	}
+
+	.computer.only.inline {
+		display: inline;
+	}
+
+	.computer.only.inline.block {
+		display: inline-block;
+	}
+}
